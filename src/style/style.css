@@ -1,0 +1,123 @@
+/*Styling CSS */
+body {
+  background-color: #114c16;
+  font-family: Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1f4529;
+  padding: 10px 0;
+  font-family: Helvetica, Arial, sans-serif;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  max-width: 1200px;
+  flex-wrap: wrap;
+}
+
+.navbar a {
+  color: #ffffff;
+  font-size: 16px;
+  text-decoration: none;
+  padding: 10px 30px;
+  width: auto;
+  text-align: center;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  white-space: nowrap;
+}
+
+.navbar a:hover {
+  color: #cbffcd;
+}
+
+.navbar .active {
+  color: #ffffff;
+  font-weight: bold;
+  background-color: #2c6e3d;
+  padding: 10px 20px;
+  border-radius: 8px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.box {
+  margin: 20px auto;
+  padding: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 10px;
+  background-color: #1f4529;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.box a {
+  color: rgb(106, 200, 255);
+}
+
+h1,
+h2,
+h3 {
+  color: #e8f5e9;
+  font-weight: bold;
+  text-align: center;
+}
+
+p {
+  color: #ffffff;
+  line-height: 1.6;
+  text-align: justify;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  text-align: left;
+  font-size: 18px;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+.contact-box {
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+  text-align: center;
+  margin-top: 0;
+  padding: 0 20px;
+}
+.contact-item {
+  margin: 0 15px;
+  font-size: 16px;
+}
+.contact-item i {
+  margin-right: 8px;
+}
+.contact-item a {
+  text-decoration: none;
+  color: rgb(106, 200, 255);
+}
+.contact-item a:hover {
+  text-decoration: underline;
+}
+.footer {
+  text-align: center;
+  font-size: 12px;
+  margin-top: 80px;
+}
