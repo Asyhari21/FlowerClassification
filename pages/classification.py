@@ -130,11 +130,11 @@ def predict_image(image, model, class_labels):
 
             # Animasi bunga
             animations = {
-                "Daisy": "./animasi/daisy.json",
+                "Daisy": "./animasi/Daisy.json",
                 "Dandelion": "./animasi/dandelion.json",
                 "Rose": "./animasi/rose.json",
                 "Sunflower": "./animasi/sunflower.json",
-                "Tulip": "./animasi/tulip.json",
+                "Tulip": "./animasi/Tulip.json",
             }
             animation_file = animations[predicted_class]
             lottie_animation = load_lottiefile(animation_file)
